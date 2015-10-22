@@ -1,0 +1,26 @@
+{
+  "name": "alessioalex-standard",
+  "version": "1.0.0",
+  "description": "alessioalex's flavor of the standard linter",
+  "main": "index.js",
+  "bin": {
+    "alessioalex-standard": "./bin/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/alessioalex/standard/issues"
+  },
+  "dependencies": {
+    "standard-engine": "^2.2.0"
+  },
+  "devDependencies": {
+    "husky": "^0.10.1"
+  },
+  "homepage": "https://github.com/alessioalex/standard",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-thyself": "node bin/cli.js",
+    "precommit": "npm run lint-thyself && npm test"
+  },
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com>",
+  "license": "MIT"
+}
