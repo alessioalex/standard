@@ -2,7 +2,7 @@
 
 My own flavor of [standard](https://github.com/feross/standard).
 
-**TL;DR** - 2 spaces for indentation, semicolons, no ES6 stuff yet.
+**TL;DR** - 2 spaces for indentation, semicolons
 
 To see the complete list of [ESLint](http://eslint.org/) rules used see `eslintrc.json`.
 
